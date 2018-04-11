@@ -1,0 +1,31 @@
+h1 {
+  font-family: Chalkduster;
+  justify-content: center;
+  display: flex;
+}
+.container {
+  flex-direction: column;
+  width: 100%;
+}
+.canvas--centered {
+  justify-content: center;
+  display: flex;
+}
+canvas {
+  border: 1px solid black;
+  background-color: grey;
+  margin-top: 40px;
+}
+#select-tile {
+  width: 640px;
+  height: 80px;
+}
+#level {
+  width: 640px;
+  height: 480px;
+}
+#debugger {
+  font-family: Chalkduster;
+  justify-content: center;
+  display: flex;
+}
