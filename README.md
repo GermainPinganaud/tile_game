@@ -1,12 +1,21 @@
-# tile game
+# Tile Level Maker
 
-I want to make a tile based game editor online.
+Tile Level Maker by Germain PINGANAUD V0.1
 
-Anyone may be part of the project as long as the work is shared with the community.
-Some unnamed tile game by Germain PINGANAUD V0.1
+## Description
+First designed as a free web browser game. Players may create their level and share it with everyone.
+## Influences
+Inspired by
+- super mario maker
+- little big planet
 
+Tile Level Maker is meant to be a **creative game**.
+Also inpired by
+- zelda *for the main reference and its top down view*
+- Bomberman *for the multiplayer arena*
+- 1bit-rogue *or diablo 1 for its stairs to go further down levels*
+- Warcraft 3 *for its world editor customizing units*
 
-- display a part of a sprite
-- handling sprites in a palette canvas
-- drawing sprites with the clic on a level canvas
-- selecting a tile from a palette and draw on the level canvas
+## Technologies
+- node.js
+- mongodb

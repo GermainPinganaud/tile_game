@@ -1,15 +1,31 @@
-function getId(id) {
-  return document.getElementById(id);
-};
-function ctx(canvasId) {
-  return document.getElementById(canvasId).getContext("2d");
-};
-
+// ne fonctionne pas coté client
+var selectTile = require("./context");
 
 var tile = new Image();
 tile.src = "graphics/basictiles.png";
 
 window.onload = function() {
-  getId("debugger").innerHTML = "JS is correctly linked";
-  ctx("select-tile").drawImage(tile, 0, 0);
+  selectTile.context.drawImage(tile, 0, 0);
+  console.log(selectTile.context.test());
 };
+
+
+
+
+
+
+
+
+
+//
+// class Context {
+//   // constructor
+//   constructor (canvasId) {
+//     this.canvas = document.getElementById(canvasId)
+//     this.context = this.canvas.getContext('2d')
+//   }
+// // methods
+//
+// }
+// // instanciation
+// var selectTile = new Context("select-tile");
